@@ -1,0 +1,14 @@
+version: '3'
+
+tasks:
+  reset:
+    desc: "Stop all Docker containers, remove them, and prune networks"
+    cmds:
+      - echo "Stopping all running Docker containers..."
+      - docker stop $(docker ps -aq)
+      - echo "Removing all Docker containers..."
+      - docker rm $(docker ps -aq)
+      - echo "Pruning all unused Docker networks..."
+      - docker network prune -f
+      - echo "Docker environment reset complete."
+    silent: false

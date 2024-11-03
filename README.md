@@ -100,11 +100,3 @@ If you prefer to run the project using Docker, follow these steps:
 ## Contribution
 
 If you want to contribute to this project, feel free to fork the repository and create a pull request.
-
-## Contact
-
-For any issues or questions, please contact the project maintainers at [[your-email@example.com](mailto:your-email@example.com)].
-
-```
-
-```
